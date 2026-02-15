@@ -3,6 +3,7 @@ quotes =[
 ]
 
  const quoteElement = document.getElementById('quote')
+ //Functions of the code//
 function generateQuote(){
    const newText= Math.floor(Math.random()*quotes.length)
    const newQuote=quotes[newText]
